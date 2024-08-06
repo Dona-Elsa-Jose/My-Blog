@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "Travelogue"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/Dona-Elsa-Jose
+      - icon: twitter
+        href: https://twitter.com
+format:
+  html:
+    theme: quartz
+    css: styles.css
+
+
+
